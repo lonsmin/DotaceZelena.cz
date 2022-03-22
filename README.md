@@ -1,5 +1,5 @@
 # DotaceZelena.cz
-Je menší projekt na získávání kontaktních údajů od oslovených uživatelů.
+Je menší projekt na získávání kontaktních údajů od oslovených uživatelů. Po vyplnění udajů pošle přes nastavenou domenu e-mail s vypisem získaných údajů.
 
 ## Vlastní nastavení
 V souboru send.php si nastavte vlastní e-mail
