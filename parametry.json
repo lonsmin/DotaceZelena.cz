@@ -1,0 +1,185 @@
+{
+   "zakladni":{
+      "inputy":[
+         {
+            "id":"Jmeno",
+            "placeholder":" Jméno"
+         },
+         {
+            "id":"Prijmeni",
+            "placeholder":" Příjmení"
+         },
+         {
+            "id":"Adresa_klienta",
+            "placeholder":" Adresa trvalého pobytu"
+         },
+         {
+            "id":"PSC",
+            "placeholder":" PSČ"
+         },
+         {
+            "id":"Adresa_objektu",
+            "placeholder":" Adresa řešeného objektu"
+         }
+      ],
+      "checkbox":[
+         {
+            "id":"Novostavba",
+            "name":"Novostavba rodinného domu",
+            "value":"Ne"
+         },
+         {
+            "id":"Rekonstrukce",
+            "name":"Rekonstrukce rodinného domu",
+            "value":"Ne"
+         },
+         {
+            "id":"Zdroj",
+            "name":"Výměnu zdroje tepla",
+            "value":"Ne"
+         },
+         {
+            "id":"Fotovoltaika",
+            "name":"Instalace fotovoltaiky",
+            "value":"Ne"
+         },
+         {
+            "id":"Destovka",
+            "name":"Dešťovka",
+            "value":"Ne"
+         },
+         {
+            "id":"Vzduchotechnika",
+            "name":"Vzduchotechnika/rekuperace",
+            "value":"Ne"
+         },
+         {
+            "id":"Elektromobilita",
+            "name":"Elektromobilita",
+            "value":"Ne"
+         }
+      ]
+   },
+   "rozsireny":[
+      {
+         "checkbox":[
+            {
+               "id":"Stavebni_dokumentace_novostavba",
+               "name":"Kompletní stavební dokumentaci",
+               "value":"Ne"
+            },
+            {
+               "id":"Projekt_vytapeni_novostavba",
+               "name":"Projekt vytápění",
+               "value":"Ne"
+            },
+            {
+               "id":"Projekt_vzduchotechniky_novostavba",
+               "name":"Projekt vzduchotechniky",
+               "value":"Ne"
+            },
+            {
+               "id":"Projekt_fotovoltaiky_novostavba",
+               "name":"Projekt fotovoltaiky",
+               "value":"Ne"
+            }
+         ]
+      },
+      {
+         "checkbox":[
+            {
+               "id":"Stavebni_dokumentace_rekonstrukce",
+               "name":"Kompletní stavební dokumentaci",
+               "value":"Ne"
+            },
+            {
+               "id":"Projekt_vytapeni_rekonstrukce",
+               "name":"Projekt vytápění",
+               "value":"Ne"
+            },
+            {
+               "id":"Projekt_vzduchotechniky_rekonstrukce",
+               "name":"Projekt vzduchotechniky",
+               "value":"Ne"
+            },
+            {
+               "id":"Projekt_fotovoltaiky_rekonstrukce",
+               "name":"Projekt fotovoltaiky",
+               "value":"Ne"
+            }
+         ]
+      },
+      {
+         "input":[
+            {
+               "id":"Soucasny_zdroj",
+               "name":"Soucasny_zdroj",
+               "placeholder":" Současný zdroj tepla"
+            },
+            {
+               "id":"Budouci_zdroj",
+               "name":"Budouci_zdroj",
+               "placeholder":" Čím chci nahradit zdroj tepla"
+            }
+         ]
+      },
+      {
+         "input":[
+            {
+               "id":"Plocha_strechy",
+               "name":"Plocha_strechy",
+               "placeholder":" Odhadovaná plocha střechy pro osazení panelů"
+            }
+         ],
+         "select":[
+            {
+               "id":"Ukladat_do_baterii",
+               "name":"Ukladat_do_baterii",
+               "placeholder":"Ukládat do baterií",
+               "value":""
+            },
+            {
+               "id":"Ukladat_do_vody",
+               "name":"Ukladat_do_vody",
+               "placeholder":"Ukládat do vody",
+               "value":""
+            }
+         ],
+         "selectID":"fotovoltaika"
+      },
+      {
+         "input":[
+            {
+               "id":"Objem_nadrze",
+               "name":"Objem_nadrze",
+               "placeholder":" Odhadovaný objem nádrže"
+            },
+            {
+               "id":"Ucel_pouziti",
+               "name":"Ucel_pouziti",
+               "placeholder":" Účel použií"
+            }
+         ]
+      },
+      {
+         
+      },
+      {
+         "select":[
+            {
+               "id":"pripojka1",
+               "name":"pripojka1",
+               "placeholder":"Jedna přípojka",
+               "value":""
+            },
+            {
+               "id":"pripojka2",
+               "name":"pripojka2",
+               "placeholder":"Dvě přípojky",
+               "value":""
+            }
+         ],
+         "selectID":"elektromobilita"
+      }
+   ]
+}
