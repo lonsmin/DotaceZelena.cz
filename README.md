@@ -2,7 +2,7 @@
 Je menší projekt na získávání kontaktních údajů od oslovených uživatelů. Po vyplnění udajů pošle přes nastavenou doménu e-mail s výpisem získaných údajů.
 
 ## Vlastní nastavení
-V souboru send.php si nastavte vlastní e-mail
+V souboru [send.php](https://github.com/lonsmin/DotaceZelena.cz/blob/main/send.php) si nastavte vlastní e-mail
 
 ```PHP
 $my_email = 'name@mydomain.cz';
