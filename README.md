@@ -1,5 +1,7 @@
 # DotaceZelena.cz
+Je menší projekt na získávání kontaktních údajů od oslovených uživatelů.
 
+## Vlastní nastavení
 V souboru send.php si nastavte vlastní e-mail
 
 ```PHP
