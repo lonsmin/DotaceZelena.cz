@@ -15,3 +15,5 @@ $header.= "Reply-To: ".$_POST["email"]."\r\n";
 $header.= "MIME-Version: 1.0\r\n"; 
 $header.= "Content-Type: text/html; charset=utf-8\r\n";
 ```
+## Parametry
+V souboru [parametry.json](https://github.com/lonsmin/DotaceZelena.cz/blob/main/parametry.json) je možné přidat nebo odebrat libovolné množství formulářů.
