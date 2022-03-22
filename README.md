@@ -18,4 +18,4 @@ $header.= "Content-Type: text/html; charset=utf-8\r\n";
 ## Parametry
 V souboru [parametry.json](https://github.com/lonsmin/DotaceZelena.cz/blob/main/parametry.json) je možné přidat nebo odebrat libovolné množství formulářů.
 
-V zakladni.checbox jsou vytvořeny checkboxy, které po zaškrtnutí spouští cyklus na rozšíření o další parametry, které se načítají z rozsireny.checkbox a to podle pořadí v poli [0] patří k [0]
+V zakladni.checbox jsou vytvořeny checkboxy, které po zaškrtnutí spouští cyklus na rozšíření o další parametry, které se načítají z rozsireny.checkbox, rozsireny.input a rozsireny.select jsou k sobě svázany podle pořadí v poli zakladni[0] patří k rozsireny[0]
