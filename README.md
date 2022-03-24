@@ -1,7 +1,7 @@
 # DotaceZelena.cz
 Je menší projekt na získávání kontaktních údajů od oslovených uživatelů. Po vyplnění udajů pošle přes nastavenou doménu e-mail s výpisem získaných údajů.
 
-## [Ukázka stránky](http://lonsmin.cz/zelena/)
+[Ukázka stránky](http://lonsmin.cz/zelena/)
 
 ## Vlastní nastavení
 V souboru [send.php](https://github.com/lonsmin/DotaceZelena.cz/blob/main/send.php) si nastavte vlastní e-mail
