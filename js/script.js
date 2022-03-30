@@ -47,9 +47,12 @@ window.onload = () => {
         event.preventDefault();
 
         submitButtonClick = true;  
+        // založit new URLSearchParams(); (https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
+        // místo encodeURI použít URLSearchParams.set('email',document.getElementById("email").value)
+        let searchParams = new URLSearchParams();
 
         let phoneVal = encodeURIComponent(document.getElementById("num").value);
-        let emailVal = encodeURIComponent(document.getElementById("email").value);
+        searchParams.set('email',document.getElementById("email").value)
         let params = "&telefon=" + phoneVal +"&email=" + emailVal+ "&Podrobny_formular=" + switchVal;
        
         if (swtich.checked) {
@@ -188,7 +191,7 @@ window.onload = () => {
 
     function vytorSelect(i, pole) {
         option = document.createElement("option");
-        option.addEventListener('chenge', function(){ pole[i].value = "Ano" });
+        //option.addEventListener('change', function(){ pole[i].value = "Ano" });
         input.appendChild(option);
         option.setAttribute('id', pole[i].id);
         option.innerText = pole[i].placeholder;
