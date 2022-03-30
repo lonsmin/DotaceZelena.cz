@@ -1,9 +1,8 @@
 <?php
-$my_email = 'majacom2@gmail.com';
+$my_email = '';
 
-$header = "From: admin@lonsmin.cz\r\n"; 
+$header = "From: lp@dotacezelena.cz\r\n"; 
 $header.= "Reply-To: ".$_POST["email"]."\r\n";
-$header.= "Bcc: majacom2@gmail.com\r\n";
 $header.= "MIME-Version: 1.0\r\n"; 
 $header.= "Content-Type: text/html; charset=utf-8\r\n";
 
